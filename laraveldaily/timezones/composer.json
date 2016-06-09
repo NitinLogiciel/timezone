@@ -1,12 +1,14 @@
 {
     "name": "laraveldaily/timezones",
-    "description": "Demo-package to show time",
+    "description": "Package to show time according to specific timezone.",
     "authors": [
         {
             "name": "Laravel Daily",
             "email": "info@laraveldaily.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "another-vendor/package": "1.*"
+    }
 }
