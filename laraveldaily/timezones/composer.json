@@ -1,5 +1,5 @@
 {
-    "name": "NitinLogiciel/timezone",
+    "name": "logiciel/timezone",
     "description": "Package to show time according to specific timezone.",
     "authors": [
         {
@@ -10,6 +10,10 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.0"
-        "NitinLogiciel/timezone.git": "1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Laraveldaily\\TimezonesSpecific": "src/"
+        }
     }
 }
